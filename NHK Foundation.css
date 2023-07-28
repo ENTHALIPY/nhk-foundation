@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+.ul1 {
+    height: 46px;
+}
+.li1 {
+    display: inline-block;
+    position: relative;
+}
+.a1 {
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 13px 24px;
+    text-transform: uppercase;
+}
+.a1:hover {
+    color: black;
+    background-color: gray;
+}
+.li1:hover .a1{
+    color: black;
+    background-color: gray;
+}
+.li1:hover .ul2{
+    display: block;
+}
+.ul2 {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    list-style-type: none;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.subli {
+     align-items: center;
+     justify-content: center;
+}
+.subli:hover {
+    color:black;
+    background-color: gray;
+}
+.suba {
+    text-decoration: none;
+    line-height: 38px;
+    padding: 10px;
+    color: black;
+}
+.intro {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.intro-img {
+    width: 100%;
+    position: relative;
+    filter: grayscale(100%);
+}
+.introtext {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.TheBand {
+    font-size: 30px;
+    font-family: "Segoe UI, Arial, sans-serif";
+}
+.welovemusic {
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    color: gray;
+}
+.list-team-member {
+    width: 768px;
+    height: 254px;
+    padding: 32px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.member {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+.name-text {
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+.team-member-img {
+    width: 154px;
+    height: 154px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.tour-section {
+    height: 845px;
+    background-color: black;
+}
+.tour {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TourDates {
+    font-size: 30px;
+    font-family: "Segoe UI, Arial, sans-serif";
+    color: white;
+    text-align: center;
+}
+.sub-text {
+    color: gray;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.ticket-list {
+    background-color: white;
+    height: 117px;
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ticket-list-month {
+    height: 39.3px;
+    color: gray;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    display: block;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.span1 {
+    background-color: red;
+    padding: 0px 8px;
+    margin: 0px 0px 0px 16px;
+    color: white;
+    font-family: Lato, sans-serif;
+}
+.span2 {
+    background-color: black;
+    color: white;
+    float: right;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;
+}
+.CitiesImg {
+    height: 161px;
+    width: 215px;
+}
+.cities {
+    display: flex;
+    width: 708px;
+    height: 468px;
+    padding: 32px 8px;
+    margin: 0px -16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.city {
+    width: 215px;
+    height: 404px;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    margin-right: 15px;
+}
+.CitiesText {
+    background-color: white;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    width: 215px;
+    height: 228px;
+    padding: 0.15px 16px;
+    margin-top: -4px;
+}
+.date {
+    color: gray;
+    margin: 15px 0px;
+}
+.button1 {
+    height: 39px;
+    width: 108px;
+    background-color: black;
+    color: white;
+    margin: 0px 0px 16px;
+    padding: 8px 16px;
+    border-radius: 0px;
+    border: none;
+}
+.button1:hover {
+    background-color: grey;
+    color: black;
+    border: none;
+}
+.Contact {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    margin: 10px 0px;
+    text-align: center;
+    height: 45px;
+    font-weight: 400;
+}
+.Contact-subtext {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
+.Contact-section {
+    padding: 64px 16px;
+    width: 708.4px;
+    height: 408.2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.options {
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    margin-bottom: 16px;
+    width: 338.19px;
+    height: 81px;
+}
+.end-contact {
+    padding: 32px 0px;
+}
+.form {
+    width: 338.19px;
+    height: 158.7px;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+}
+.name-form {
+    padding: 8px;
+    border: 1px solid gray;
+    height: 40.1px;
+    width: 161.09px;
+    color: gray;
+    border-radius: 0px;
+    padding: 0px 8px;
+    margin-right: 8px;
+}
+.email-form {
+    padding: 8px;
+    border: 1px solid gray;
+    height: 40.1px;
+    width: 161.09px;
+    color: gray;
+    border-radius: 0px;
+    padding: 0px 8px;
+    margin-left: 8px;
+}
+.message-form {
+    border: 1px solid gray;
+    height: 40.1px;
+    width: 338.19px;
+    padding: 8px;
+    color: gray;
+    border-radius: 0px;
+    margin-top: 8px;
+}
+.button2 {
+    height: 38.5px;
+    width: 71.3px;
+    background-color: black;
+    color: white;
+    margin: 16px 0px;
+    padding: 8px 16px;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    border: none;
+    float: right;
+}
+.button2:hover {
+    background-color: gray;
+    color: black;
+}
+.last-image {
+    height: auto;
+    width: 1262px;
+    filter: grayscale(50%);
+    vertical-align: middle;
+}
+.f1 {
+    padding: 64px 16px;
+    font-size: 24px;
+    color: #000;
+    background-color: #f1f1f1;
+    text-align: center;
+    display: block;
+}
+.last-p {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+.fa-facebook-official:hover {
+    color: gray;
+}
+.fa-instagram:hover {
+    color: gray;
+}
+.fa-snapchat:hover {
+    color: gray;
+}
+.fa-pinterest-p:hover {
+    color: gray;
+}
+.fa-twitter:hover {
+    color: gray;
+}
+.fa-linkedin:hover {
+    color: gray;
+}
+.search-button {
+    color: white;
+    float: right;
+    padding: 12px 24px;
+    box-sizing: inherit;
+    display: block;
+    height: 46px;
+}
+.search-button:hover {
+    background-color: red;
+}
